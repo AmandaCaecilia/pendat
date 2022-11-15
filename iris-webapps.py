@@ -6,7 +6,7 @@ from sklearn.naive_bayes import GaussianNB
 
 st.write("""
 # Klasifikasi Bunga Iris
-- "Metode Naive Bayer Classifier" -
+"Metode Naive Bayer Classifier"
 """
 
 )
