@@ -5,8 +5,8 @@ from sklearn import datasets
 from sklearn.naive_bayes import GaussianNB 
 
 st.write("""
-# Web Apps - klasifikasi bunga iris
-Aplikasi untuk mengklasifikasi jenis bunga IRIS
+# Klasifikasi Bunga Iris
+- "Metode Naive Bayer Classifier" -
 """
 
 )
@@ -30,7 +30,7 @@ def input_user():
     return fitur
 df = input_user()
 
-st.subheader('Parameter Inputan')
+st.subheader('Parameter Input klasifikasi')
 st.write(df)
 
 iris=datasets.load_iris()
